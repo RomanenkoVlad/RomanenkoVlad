@@ -1,0 +1,32 @@
+orange
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape * 74
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+class MyClass { constructor() { this.property = getRandomString(); } }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+90,37,74,49,99,6,82,68,60,22,17,50,20,72,22,94,3,75,85,17,81,84,98,49,63,71,11,61,12,76,33,73 / true
+const isPalindrome = str => str === str.split("").reverse().join("");
+50 - true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange
+
+const multiply = (a, b) => a * b;
+const randomNumber = getRandomNumber();
+61 * 84
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const removeDuplicates = array => Array.from(new Set(array));
+const reverseString = str => str.split("").reverse().join("");
