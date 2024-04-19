@@ -1,0 +1,9 @@
+const isEven = num => num % 2 === 0;
+
+grape + 72
+const isEven = num => num % 2 === 0;
+
+kiwi
+
+// This is a comment
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
